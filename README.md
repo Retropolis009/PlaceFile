@@ -15,3 +15,14 @@ rojo serve
 ```
 
 For more help, check out [the Rojo documentation](https://rojo.space/docs).
+
+## Preserving Studio-only content
+
+Live sync is configured to leave instances alone when they are not represented
+in the project files. This protects Studio-only assets from being deleted, but
+those assets are not included in builds or version control. To include assets in
+the project, export them as Roblox model files and add them to the appropriate
+mapped directory.
+
+If a sync has already removed assets, stop Rojo and restore them from Roblox
+Studio's version history or a local place-file backup before syncing again.

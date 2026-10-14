@@ -3,18 +3,22 @@
   "tree": {
     "$className": "DataModel",
     "ReplicatedStorage": {
-      "$path": "src/replicated-storage"
+      "$path": "src/replicated-storage",
+      "$ignoreUnknownInstances": true
     },
     "ServerScriptService": {
-      "$path": "src/server"
+      "$path": "src/server",
+      "$ignoreUnknownInstances": true
     },
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "$path": "src/client"
+        "$path": "src/client",
+        "$ignoreUnknownInstances": true
       }
     },
     "Workspace": {
       "$path": "src/workspace",
+      "$ignoreUnknownInstances": true,
       "$properties": {
         "FilteringEnabled": true
       },
@@ -60,7 +64,8 @@
       }
     },
     "StarterGui": {
-      "$path": "src/gui"
+      "$path": "src/gui",
+      "$ignoreUnknownInstances": true
     }
   }
 }
