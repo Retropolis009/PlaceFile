@@ -10,3 +10,6 @@
 *.exe
 
 sourcemap.json
+
+# Workspace assets and scripts are kept local and out of the project repository
+src/workspace/

@@ -26,3 +26,7 @@ mapped directory.
 
 If a sync has already removed assets, stop Rojo and restore them from Roblox
 Studio's version history or a local place-file backup before syncing again.
+
+The `src/workspace` directory is intentionally excluded from this repository.
+Workspace assets and scripts there remain local and are not included in builds
+from a fresh clone.
