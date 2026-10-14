@@ -1,0 +1,12 @@
+# Roblox place files are generated locally or kept in Studio.
+*.rbxl
+*.rbxlx
+
+# Roblox Studio lock files
+*.rbxlx.lock
+*.rbxl.lock
+
+# Local command-line tools
+*.exe
+
+sourcemap.json
